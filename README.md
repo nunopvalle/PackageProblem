@@ -4,8 +4,8 @@ PackageProblem
 Code for trying to solve PackageProblem from CodeEval
 
 Description (from CodeEval)
-
-Challenge Description:
+-
+<b>Challenge Description:</b>
 
 You want to send your friend a package with different things. 
 Each thing you put inside of a package has such parameters as index number, weight and cost. 
@@ -13,7 +13,7 @@ The package has a weight limitation.
 Your goal is to determine which things to put into the package so that the total weight is less than or equal to the package limit and the total cost is as large as possible. 
 This is a variation of Knapsack problem
 
-Input sample:
+<b>Input sample:</b>
 
 Your program should accept as its first argument a path to a filename. The input file contains several lines. Each line is one test case. 
 
@@ -30,11 +30,13 @@ Output sample:
 
 For each set of things produce a list of things (their index numbers separated by comma) that you put into the package. E.g.
 
-4
--
-2,7
-8,9
-Constraints: 
+4<br>
+\-<br>
+2,7<br>
+8,9<br>
+
+<b>Constraints: </b>
+
 Max weight any package can take is <= 100. 
 There might be up to 15 things you need to choose from. 
 Max weight and max cost of any thing is <= 100.
